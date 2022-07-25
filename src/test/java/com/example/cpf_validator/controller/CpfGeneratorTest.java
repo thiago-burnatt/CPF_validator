@@ -8,12 +8,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CpfGeneratorTest {
 
-    CpfGeneratorController cpfGenerator;
+    CpfGenerator cpfGenerator;
     CpfValidatorImpl cpfValidator;
 
     @BeforeEach
     void setUp() {
-        cpfGenerator = new CpfGeneratorController();
+        cpfGenerator = new CpfGenerator();
         cpfValidator = new CpfValidatorImpl();
     }
 

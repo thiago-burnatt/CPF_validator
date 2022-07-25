@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/generate")
-public class CpfGeneratorController {
+public class CpfGenerator {
 
     @GetMapping
     public String generatedCpf() {

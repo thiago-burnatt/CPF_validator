@@ -1,7 +1,12 @@
 package com.example.cpf_validator.implementations;
 
+import com.example.cpf_validator.controller.CpfGenerator;
+import com.example.cpf_validator.interfaces.CpfValidator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Test;
+
+import javax.swing.text.StyledEditorKit;
 
 import static org.junit.jupiter.api.Assertions.*;
 

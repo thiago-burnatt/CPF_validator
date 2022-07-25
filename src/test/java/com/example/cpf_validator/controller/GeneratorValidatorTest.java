@@ -2,17 +2,18 @@ package com.example.cpf_validator.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GeneratorValidatorTest {
 
-    CpfGeneratorController cpfGenerator;
+    CpfGenerator cpfGenerator;
     ValidatorController validatorController;
 
     @BeforeEach
     void setUp() {
-        cpfGenerator = new CpfGeneratorController();
+        cpfGenerator = new CpfGenerator();
         validatorController = new ValidatorController();
     }
 
